@@ -1,4 +1,5 @@
 # -*- coding: utf-8 -*-
+import pickle
 import textwrap
 from os.path import dirname
 
@@ -8,8 +9,6 @@ fields = segments = messages = None
 
 HL7_VERSION = '27'
 FILE_PATH = dirname(__file__)
-
-import pickle
 
 with open('{}/data/{}/fields.pickle'.format(FILE_PATH, HL7_VERSION), "rb") as f:
     fields = pickle.load(f)
