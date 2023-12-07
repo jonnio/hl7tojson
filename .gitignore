@@ -1,8 +1,14 @@
+# IntelliJ
 .idea/
-env/
+
+# Python virtual environments
+venv/
+.venv/
+__pycache__
+.pytest_cache/
+
+build/
+dist/
+
 .DS_Store
-/build/
-/dist/
-*.pyc
-*.egg-info/
-*.egg
+
