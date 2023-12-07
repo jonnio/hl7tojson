@@ -7,7 +7,7 @@ with open("README.md", "r") as fh:
 
 setuptools.setup(
     name="hl7tojson",
-    version="0.1.0",
+    version="0.1.2",
     author="Jon Osborn",
     author_email="support@ascend.io",
     description="A simple library to convert HL7 message version 2 to JSON "
@@ -27,7 +27,7 @@ setuptools.setup(
         "Operating System :: OS Independent",
     ],
     install_requires=[
-        'hl7==0.3.4',
-        'six==1.11.0'
+        'hl7==0.4.5',
+        'six'
     ],
 )

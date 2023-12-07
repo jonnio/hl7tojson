@@ -133,6 +133,7 @@ def _get_fields_data(segment):
             'id': idx,
             'description': field.desc,
             'data': str(field),
+            'datatype': field.datatype,
             'repetitions': _get_repetitions_data(field)
         }
         fields_data.append(field_dict)
